@@ -1,0 +1,16 @@
+name: "Blog test"
+title: "My Blog"
+description: |
+  test test test
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "test"
+      href: test.html
+    - text: "test2"
+      href: test2.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

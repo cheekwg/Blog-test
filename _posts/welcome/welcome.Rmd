@@ -1,0 +1,26 @@
+---
+title: "Welcome to My Visual Analytics Coursework"
+description: |
+  Welcome to our new blog, Geralds Blog. We hope you enjoy 
+  reading what we have to say!
+author:
+  - name: Gerald Chee 
+    url: https://www.linkedin.com/in/gerald-chee/
+    affiliation: SMU MITB Student
+    affiliation_url: https://example.com/spacelysprokets
+date: 01-05-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+
